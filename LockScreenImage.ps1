@@ -13,7 +13,7 @@ $PersonalizationRegistryKeyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersi
 
 $RootFolder = "C:\Windows\System32"
 $LocalImageFolder = "C:\Windows\System32\Personalization"
-$LocalImage = "C:\Windows\System32\Personalization\LockScreen.jpg"
+$LocalImage = "C:\Windows\System32\Personalization\LockScreenImage.jpg"
 
 if(!(Test-Path $PersonalizationRegistryKeyPath)) {
         Write-Host "Registry path $($PersonalizationRegistryKeyPath) does not exist. Creating..."
